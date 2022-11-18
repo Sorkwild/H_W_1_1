@@ -4,13 +4,13 @@ public class UserSt {
 
     static class QuerySt{
         public void printToLog(){
-            System.out.println("Пользователь "+login+" с паролем "+password+" отправил запрос");
+            System.out.println("Запрос от "+login+" "+password);
         }
     }
 
     public UserSt(String log, String pas){
-        login = log;
-        password = pas;
+        this.login = log;
+        this.password = pas;
     }
 
     public void createQuerySt(){
