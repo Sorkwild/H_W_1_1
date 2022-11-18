@@ -10,7 +10,7 @@ public class UserLocal {
     public void crateQuery() {
         class QueryLocal {
             void printToLog() {
-                System.out.println("Пользователь "+login+" с паролем "+password+" отправил запрос");
+                System.out.println("Запрос от "+login+" "+password);
             }
         }
         QueryLocal query = new QueryLocal();

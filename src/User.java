@@ -3,7 +3,7 @@ public class User {
     private final String password;
     public class Query{
         public void printToLog(){
-            System.out.println("Пользователь "+login+" с паролем "+password+" отправил запрос");
+            System.out.println("Запрос от "+login+" "+password);
         }
     }
     public User(String login, String password){
